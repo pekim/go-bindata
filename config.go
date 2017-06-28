@@ -9,7 +9,7 @@ import (
 	"hash"
 	"os"
 
-	"github.com/tmthrgd/go-bindata/internal/identifier"
+	"github.com/pekim/go-bindata/internal/identifier"
 )
 
 // HashFormat specifies which format to use when hashing names.
