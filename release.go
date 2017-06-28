@@ -210,10 +210,10 @@ var _bindata = map[string]*asset{
 	{{- end}}
 		data: {{if $.Compress -}}
 			"" +
-			{{flate . "\t\t\t" 24}}
+			{{flate . "\t\t\t" 1000000}}
 		{{- else -}}
 			"" +
-			{{read . "\t\t\t" 24 -}}
+			{{read . "\t\t\t" 1000000 -}}
 		{{- end}},
 
 	{{- if or $.Metadata $.Compress -}}
